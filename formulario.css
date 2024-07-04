@@ -1,0 +1,40 @@
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(255, 179, 217);
+    align-items: center;
+    align-content: center;
+    text-align: center ;
+}
+
+h1{
+    color: rgb(179, 36, 0);
+    background-color: rgb(255, 230, 243);
+    justify-items: center;
+    align-items: center;
+
+}
+
+label, input{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.início {
+    display: block;
+    gap: 20px;
+
+}
+
+.Dadosdemoradia{
+    display: block;
+    margin-left: 20px;
+    color: rgb(153, 0, 0);
+}
+
+.duas_colunas{
+    display: flex;
+   
+}
+
+
+
