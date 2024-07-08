@@ -1,13 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulário</title>
     <link rel="stylesheet" href="formulario.css">
+    <script src="formulario.js"></script>
+
 </head>
 <body>
 <h1>Cadastro de endereço</h1>
+
 <div class="duas_colunas">
   <div class="Início">
      <H3>Dados pessoais</H3>
@@ -31,10 +35,12 @@
      <input id="Cidade" type="text" placeholder="Cidade">
      
      <label for="CEP">CEP:</label>
-     <input id="CEP" type="text" placeholder="CEP">
-     
-</div>
+     <input id="CEP" type="text" placeholder="CEP">  
+   </div>  
 </div>
 
+<div class="botao">
+   <button type="button" onclick="enviar()">Enviando</button>
+</div>
 </body>
 </html>
