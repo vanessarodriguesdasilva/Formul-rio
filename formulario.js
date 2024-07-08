@@ -8,4 +8,10 @@ function enviar(){
 
     alert('Nome:'+nome+'\nCPF:'+CPF+'\nNúmero de celular:'+Númerodecelular+'\nEstado:'+Estado+'\nCidade:'+Cidade+'CEP:'+CEP)
 
+    window.location.href = 'TELAINICIAL.HTML'
+}
+
+function voltar(){
+    window.location.href = 'formulario.html'
+    
 }
