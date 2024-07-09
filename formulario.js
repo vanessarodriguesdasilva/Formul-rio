@@ -6,7 +6,7 @@ function enviar(){
     let Cidade = document.getElementById('Cidade').value
     let CEP = document.getElementById('CEP').value
 
-    alert('Nome:'+nome+'\nCPF:'+CPF+'\nNúmero de celular:'+Númerodecelular+'\nEstado:'+Estado+'\nCidade:'+Cidade+'CEP:'+CEP)
+    alert('Nome:'+nome+'\nCPF:'+CPF+'\nNúmero de celular:'+Númerodecelular+'\nEstado:'+Estado+'\nCidade:'+Cidade+'\nCEP:'+CEP)
 
     window.location.href = 'TELAINICIAL.HTML'
 }

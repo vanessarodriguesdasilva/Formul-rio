@@ -1,0 +1,29 @@
+button{
+    background-color:  rgb(252, 233, 237);
+    border-color:rgb(179, 36, 0);
+    color: rgb(179, 36, 0);
+    width: 145px;
+    height: 45px;
+    font-size: large;
+    border-radius: 5px;
+
+}
+
+h1{
+    color:rgb(252, 233, 237);
+    align-items: center;
+    text-align: center;
+    font-size: 335%;
+
+}
+
+body{
+    background-color:rgb(226, 44, 90);
+    align-items: center;
+    text-align: center;
+    
+}
+.uhum{
+    margin-top: 20%;
+
+}

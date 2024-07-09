@@ -1,45 +1,79 @@
 body{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: rgb(255, 179, 217);
+    background-color: rgb(226, 44, 90);
     align-items: center;
     text-align: center;
+    align-content: center;
+    justify-items: center;
+    font-size: 150%;
+   
 }
 
 h1{
     color: rgb(179, 36, 0);
-    background-color: rgb(255, 230, 243);
-    justify-items: center;
-    align-items: center;
-
+    background-color:rgb(252, 233, 237);
 }
 
+h2{
+    color: rgb(179, 36, 0); 
+}
+
+h3{
+    display: block;
+    margin-right:20px ;
+    margin-left: 20px;
+}
 label, input{
     display: block;
     margin-bottom: 20px;
+
 }
+input:focus{
+    color: rgb(255, 0, 0);
+}
+input{
+    width: 200px;
+    height: 25px;
+    margin-right:50px ;
+    margin-left: 50px;
+    font-size: medium;
+    border-radius: 5px;
+    border: 1px solid;
 
-.início {
+}
+.inicio {
     display: block;
-    gap: 20px;
-
 }
 
 .Dadosdemoradia{
     display: block;
-    margin-left: 20px;
-    color: rgb(153, 0, 0);
+    color: rgb(0, 0, 0);
 }
 
 .duas_colunas{
     display: flex;
-
-    margin-right: 50%;
-    margin-left: 40%;
+    justify-content: center;
+     
     
 }
- .botao{
-    display: block;
+ button{
+    background-color: rgb(252, 233, 237);
+    border-color:rgb(179, 36, 0);
+    color: rgb(179, 36, 0);
+    font-size: medium;
+    width: 105px;
+    height: 35px;
+    border-radius: 5px;
  }
 
-
-
+.bloco{
+    background-color: rgb(246, 188, 201);
+    border-color:rgb(179, 36, 0);
+    margin: 10%;
+    padding: 10px;
+}
+.cookie{
+    display:block;
+    margin-left: 300px;
+    margin-right: 300px;
+}
