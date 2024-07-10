@@ -23,14 +23,12 @@ h3{
     margin-right:20px ;
     margin-left: 20px;
 }
-label, input{
+label{
     display: block;
     margin-bottom: 20px;
 
 }
-input:focus{
-    color: rgb(255, 0, 0);
-}
+
 input{
     width: 200px;
     height: 25px;
@@ -39,7 +37,8 @@ input{
     font-size: medium;
     border-radius: 5px;
     border: 1px solid;
-
+    display: block;
+    margin-bottom: 20px;
 }
 .inicio {
     display: block;
@@ -73,7 +72,11 @@ input{
     padding: 10px;
 }
 .cookie{
-    display:block;
-    margin-left: 300px;
-    margin-right: 300px;
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    border: solid rgba(255, 0, 0, 0);
+    
 }
+
+
